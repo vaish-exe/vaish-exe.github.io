@@ -56,3 +56,6 @@ footer {
   color: #888;
   font-size: 0.9em;
 }
+#story p {
+  margin-bottom: 16px;
+}
