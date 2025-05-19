@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  max-width: 850px;
+  max-width: 900px;
   margin: 40px auto;
   padding: 0 20px;
   color: #222;
@@ -8,16 +8,18 @@ body {
 }
 
 header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 30px;
   margin-bottom: 40px;
 }
 
 .profile-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
-  margin-bottom: 10px;
+  border-radius: 12px; /* square but with slightly rounded corners */
+  border: 2px solid #ccc;
 }
 
 .tagline {
@@ -27,6 +29,7 @@ header {
 
 h1, h2 {
   color: #2c3e50;
+  margin-bottom: 8px;
 }
 
 ul {
