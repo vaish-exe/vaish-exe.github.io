@@ -1,4 +1,4 @@
-/* General layout */
+/* Base styles */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -7,7 +7,7 @@ body {
   line-height: 1.6;
 }
 
-/* Container for two-column layout */
+/* Main container with two columns */
 .container {
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@ body {
   gap: 40px;
 }
 
-/* Sidebar */
+/* Left sidebar */
 .sidebar {
   width: 300px;
   flex-shrink: 0;
@@ -36,29 +36,44 @@ body {
   margin-bottom: 20px;
 }
 
-/* Education section */
-.edu-block h3 {
-  margin-top: 0;
+/* Education block */
+.edu-block h3,
+.contact-block h3 {
   font-size: 1.1em;
   color: #2c3e50;
+  margin-bottom: 10px;
 }
 
-.edu-block p {
-  margin: 6px 0;
+.edu-block p,
+.contact-block p {
   font-size: 0.95em;
+  margin: 6px 0;
   color: #444;
-  line-height: 1.4;
 }
 
-/* Main content */
+/* Contact links */
+.contact-block a {
+  color: #0077cc;
+  text-decoration: none;
+  display: inline-block;
+  word-break: break-word;
+}
+
+.contact-block a:hover {
+  text-decoration: underline;
+}
+
+/* Right-side content */
 .content {
   flex-grow: 1;
   max-width: 700px;
 }
 
+/* Headings */
 h1 {
   font-size: 2em;
   color: #2c3e50;
+  margin-bottom: 8px;
 }
 
 h2 {
@@ -73,18 +88,20 @@ h3 {
   color: #2c3e50;
 }
 
+/* Tagline */
 .tagline {
   font-size: 1.1em;
   color: #555;
   margin-bottom: 30px;
 }
 
-/* Story spacing */
-#story p {
+/* Paragraph spacing in story and reflection */
+#story p,
+#academic-reflection p {
   margin-bottom: 16px;
 }
 
-/* Work Experience */
+/* Work experience section */
 #experience .job {
   margin-bottom: 32px;
 }
@@ -105,7 +122,7 @@ h3 {
   text-decoration: underline;
 }
 
-/* Projects list */
+/* Lists (e.g., featured projects) */
 ul {
   list-style-type: none;
   padding-left: 0;
@@ -115,29 +132,20 @@ ul li {
   margin-bottom: 10px;
 }
 
-/* Links */
-a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Contact */
+/* Contact section */
 #contact p {
   margin: 8px 0;
 }
 
-/* Footer if added later */
-footer {
-  text-align: center;
-  margin-top: 60px;
-  color: #888;
-  font-size: 0.9em;
+#contact a {
+  color: #0077cc;
 }
 
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Academic Reflection GitHub link */
 #academic-reflection a {
   font-weight: 500;
   color: #0077cc;
