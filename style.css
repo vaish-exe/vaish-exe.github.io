@@ -137,3 +137,8 @@ footer {
   color: #888;
   font-size: 0.9em;
 }
+
+#academic-reflection a {
+  font-weight: 500;
+  color: #0077cc;
+}
