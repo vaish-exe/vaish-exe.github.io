@@ -88,3 +88,24 @@ footer {
   color: #888;
   font-size: 0.9em;
 }
+
+#experience .job {
+  margin-bottom: 30px;
+}
+
+#experience h3 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #2c3e50;
+}
+
+#experience .period {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #777;
+  margin-left: 10px;
+}
+
+#experience p {
+  margin: 8px 0;
+}
