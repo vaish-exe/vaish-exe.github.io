@@ -125,7 +125,7 @@ h3 {
   text-decoration: underline;
 }
 
-/* Skills Grid (with icons) */
+/* Skills Grid with Icons */
 #skills {
   margin-top: 40px;
 }
@@ -161,9 +161,10 @@ h3 {
 }
 
 .skill-badge img {
-  height: 18px;
-  width: 18px;
+  height: 20px;
+  width: 20px;
   object-fit: contain;
+  margin-right: 6px;
 }
 
 .skill-badge:hover {
