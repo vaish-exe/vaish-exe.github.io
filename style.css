@@ -15,7 +15,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
-  gap: 40px; 
+  gap: 40px;
 }
 
 /* Left Sidebar */
@@ -28,7 +28,7 @@ body {
 
 .profile-img {
   width: 100%;
-  height: 300px; 
+  height: 300px;
   object-fit: cover;
   border-radius: 12px;
   border: 2px solid #ccc;
@@ -125,65 +125,48 @@ h3 {
   text-decoration: underline;
 }
 
-/* Skills Table (row style) */
-.skills-table {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-top: 20px;
-}
-
-.skills-table .row {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-}
-
-.skills-table .label {
-  width: 200px;
-  font-weight: 600;
-  color: #2c3e50;
-}
-
-.skills-table .value {
-  flex: 1;
-  color: #444;
-}
-
-/* Skill Badge Layout */
+/* Skills Grid (with icons) */
 #skills {
   margin-top: 40px;
 }
 
-.skill-category {
-  margin-bottom: 25px;
+.skill-section {
+  margin-bottom: 32px;
 }
 
-.skill-category h3 {
+.skill-section h4 {
   font-size: 1em;
+  font-weight: 600;
   color: #2c3e50;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-.skill-badges {
+.badge-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.badge {
+.skill-badge {
   background-color: #111;
-  color: white;
-  padding: 6px 12px;
+  color: #fff;
+  padding: 8px 14px;
   font-size: 0.85em;
   border-radius: 6px;
-  font-weight: 500;
   display: inline-flex;
   align-items: center;
+  font-weight: 500;
+  gap: 6px;
   transition: background 0.3s;
 }
 
-.badge:hover {
+.skill-badge img {
+  height: 18px;
+  width: 18px;
+  object-fit: contain;
+}
+
+.skill-badge:hover {
   background-color: #0077cc;
   cursor: default;
 }
