@@ -150,6 +150,44 @@ h3 {
   color: #444;
 }
 
+/* Skill Badge Layout */
+#skills {
+  margin-top: 40px;
+}
+
+.skill-category {
+  margin-bottom: 25px;
+}
+
+.skill-category h3 {
+  font-size: 1em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.badge {
+  background-color: #111;
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.85em;
+  border-radius: 6px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.badge:hover {
+  background-color: #0077cc;
+  cursor: default;
+}
+
 /* Right Sidebar */
 .right-sidebar {
   width: 260px;
